@@ -9,7 +9,7 @@ const href = window.location.href
 let currPath = href.substring(href.lastIndexOf("/"))
 const activeIndex = ref(0)
 if (currPath == '/') currPath = '/student'
-if (currPath == '/student' || currPath == '/teacher' || currentPath == '/course') activeIndex.value = 0
+if (currPath == '/student' || currPath == '/teacher' || currPath == '/course') activeIndex.value = 0
 else activeIndex == 1
 
 const changeIndex = (index) => {
