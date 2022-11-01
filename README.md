@@ -2,7 +2,7 @@
 
 ## 框架选取
 
-`Vue.js` + `Navie UI` + `Spring Boot` + `Spring Data MongoDB`
+`Vue + `Navie UI` + `Spring Boot` + `Spring Data MongoDB`
 
 ## 前端配置
 
