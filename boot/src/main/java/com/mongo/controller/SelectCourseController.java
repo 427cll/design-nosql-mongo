@@ -30,4 +30,5 @@ public class SelectCourseController {
         DeleteResult remove = mongoTemplate.remove(query,StudentCourse.class);
         return Result.success();
     }
+
 }

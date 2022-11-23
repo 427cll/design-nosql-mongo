@@ -55,4 +55,5 @@ public class CourseController {
          mongoTemplate.save(course,"course");
         return Result.success();
     }
+
 }
